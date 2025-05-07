@@ -27,7 +27,7 @@ p {
 
 a {
     margin-right: 30px;
-    color: #38488f;
+    color: rgb(56, 72, 143);
     text-decoration: none;
     position: relative;
 }
@@ -38,9 +38,24 @@ a::after {
     bottom: -2px;
     width: 0;
     height: 1px;
-    background-color: #38488f;
+    background-color: currentColor;
     transition: width 0.3s ease-in-out;
 }
 a:hover::after {
     width: 100%;
+}
+
+#link {
+    margin-right: 0;
+    color: rgb(100, 100, 100);
+}
+small {
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    margin: 30px 0;
 }
