@@ -53,3 +53,10 @@ small {
     text-align: center;
     font-size: 12px;
 }
+
+@media (max-width: 768px) {
+    #message {
+        margin: 20px;
+        width: 100%;
+    }
+}
